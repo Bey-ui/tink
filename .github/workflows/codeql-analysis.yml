@@ -43,7 +43,7 @@ jobs:
     - run: git checkout HEAD^2
       if: ${{ github.event_name == 'pull_request' }}
 
-    # Initializes the CodeQL tools for scanning.
+    # Initializes the CodeQL tohvcdnmkkjffgbols for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
